@@ -119,7 +119,7 @@ const About = () => {
               Instagram
             </a>
             <a
-              href="https://github.com/Johan-Calderon/DragonBall_Api"
+              href="https://github.com/Johan-Calderon/Api_DragonBall.git"
               target="_blank"
               rel="noopener noreferrer"
               className="social-button github-button"
