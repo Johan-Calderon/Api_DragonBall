@@ -8,6 +8,7 @@ import InfoIcon from '@mui/icons-material/Info';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import Header from '../Components/Header/Header';
 import CardBall from '../Components/CardBall/CardBall';
+import NotFound from '../Components/NotFound/NotFound';
 import './App.css';
 
 // Detalles del personaje
@@ -289,6 +290,7 @@ const App = () => {
             <Route path="/female" element={<CharactersList filterGender="Female" />} />
             <Route path="/personaje/:id" element={<CharacterDetail />} />
             <Route path="/about" element={<About />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
       </div>
